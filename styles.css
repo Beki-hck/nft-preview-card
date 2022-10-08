@@ -1,0 +1,94 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  text-align: left;
+}
+* {
+  font-family: "Fraunces", serif;
+  font-family: "Outfit", sans-serif;
+}
+.wrapper {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 310px;
+  height: 34em;
+  background-color: hsl(216, 50%, 16%);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+.equilibrium-img {
+  width: 270px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+hr {
+  border: none;
+  border-top: 1px solid hsl(215, 32%, 27%);
+  height: 5px;
+  width: 90%;
+  color: #ffff;
+  margin-top: 0;
+}
+.first-heading {
+  color: #ffff;
+  padding-right: 120px;
+}
+.p1 {
+  margin-top: 0;
+  margin-bottom: 7px;
+  padding: 0 20px;
+  line-height: 1.5;
+  color: #8ea6c3;
+}
+.p2 {
+  display: inline;
+  position: relative;
+  bottom: 3px;
+  color: hsl(178, 100%, 50%);
+  padding-right: 80px;
+  padding-left:3px ;
+}
+.p3 {
+  display: inline-flex;
+  position: relative;
+  bottom: 3px;
+  padding-left:3px ;
+  color: #8ea6c3;
+}
+.mid-div {
+  display: inline;
+  justify-content: space-around;
+  margin-top: 0;
+}
+footer {
+  text-align: center;
+  color: white;
+}
+.avatar-img {
+  position: relative;
+  right: 110px;
+  margin-top: 5px;
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 35px;
+}
+.span1 {
+  color: #8ea6c3;
+  position: relative;
+  right: 30px;
+  bottom: 30px;
+  
+}
+.span2{
+  color: white;
+    position: relative;
+  left: 60px;
+  bottom: 50px;
+}
+
+
